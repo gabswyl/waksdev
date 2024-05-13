@@ -32,7 +32,6 @@
 button {
     background: linear-gradient(141deg, rgba(206, 10, 255, 1) 0%, rgba(0, 240, 255, 1) 100%);
     text-transform: uppercase;
-    padding: 5px 10px;
     border: none;
     border-radius: 8px;
     font-weight: bold;
@@ -44,6 +43,7 @@ button {
 }
 
 button a {
+    padding: 5px 10px;
     font-size: 1.25rem;
     text-decoration: none;
 }

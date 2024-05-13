@@ -10,10 +10,10 @@ const Footer = () => {
             <Logo />
 
             <div className={styles.midias}>
-                <a href='https://www.instagram.com/waksdsgn/' target="_blank" rel="noopener noreferrer">
+                <a href='https://www.instagram.com/waksdsgn/'alt="Icone de Whatsapp">
                     <FaInstagram size={'32px'} />
                 </a>
-                <a href="https://whatsa.me/5531983189752" target="_blank" rel="noopener noreferrer">
+                <a href="https://whatsa.me/5531983189752" alt="Icone de WhatsApp">
                     <FaWhatsapp size={'32px'} />
                 </a>
             </div>
