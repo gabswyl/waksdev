@@ -42,7 +42,7 @@ const Faq = () => {
                         <dt className={styles.faqtitle} onClick={() => handleFaq(index)}>
                             {faq.title}
                             <div className={`arrow ${active === index ? 'active' : ''}`}>
-                                <img src={active === index ? arrowup : arrowdown} />
+                                <img src={active === index ? arrowup : arrowdown} alt='abrir ou fechar faq'/>
                             </div>
                         </dt>
                         {active === index && (

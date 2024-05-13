@@ -15,10 +15,10 @@
 }
 
 .carrosell img {
-    width: 100%; /* Garante que a imagem ocupe toda a largura da div */
-    height: 100%; /* Garante que a imagem ocupe toda a altura da div */
-    object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
-    border-radius: 10px; /* Mantém o mesmo raio de borda da div */
+    max-width: 525px;
+    max-height: 350px;
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 
 .noborder1 {
