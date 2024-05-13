@@ -47,3 +47,16 @@ button a {
     font-size: 1.25rem;
     text-decoration: none;
 }
+
+
+@media (max-width: 1000px) {
+    .anydoubts {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    button {
+        margin-top: 15px;
+    }
+}

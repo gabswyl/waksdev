@@ -20,4 +20,8 @@
     .button {
      text-align: start;
     }
+
+    .button a {
+        padding: 0;
+    }
   }
