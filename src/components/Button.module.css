@@ -1,0 +1,23 @@
+.button {
+    background: linear-gradient(141deg, rgba(206, 10, 255, 1) 0%, rgba(0, 240, 255, 1) 100%);
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .button {
+     text-align: start;
+    }
+  }

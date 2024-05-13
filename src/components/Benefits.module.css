@@ -1,0 +1,42 @@
+.problem {
+    max-width: 1280px;
+    text-align: center;
+}
+
+.problem > h1 {
+    font-size: 4rem;
+}
+
+.problem > p {
+    color: var(--cinza-300)
+}
+
+.cards {
+    margin-top: 50px;
+}
+
+
+.cards ul {
+    display: flex;
+    list-style: none;
+}
+
+@media (max-width: 1000px) {
+
+    .problem > h1 {
+        font-size: 2.5rem;
+    }
+
+    .cards {
+        margin-top: 35px;
+    }
+
+    .cards ul {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+}

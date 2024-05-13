@@ -1,0 +1,16 @@
+.card {
+    padding: 20px;
+}
+
+.card p {
+    color: var(--cinza-300)
+}
+
+.numbers {
+    background: linear-gradient(180deg, rgba(28,28,28,1) 0%, rgba(0,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8rem;
+    font-weight: 700;
+    z-index: -2;
+}

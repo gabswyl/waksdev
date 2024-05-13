@@ -1,0 +1,95 @@
+
+
+
+.problemsection,
+.solutionsection,
+.processSection,
+.budgetSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 250px;
+}
+
+.titlecarrosell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.titlecarrosell h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.titlecarrosell p {
+  font-size: 1.25rem;
+  color: var(--cinza-300);
+}
+
+@media (max-width: 1000px) {
+
+  .carrosellsection {
+    text-align: center;
+  }
+  .titlecarrosell h1 {
+    font-size: 2.5rem;
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .section h1 {
+    line-height: 100%;
+  }
+
+  .title {
+    text-align: start;
+    padding: 10px;
+  }
+}
+
+.gradient {
+  background-image: linear-gradient(141deg, rgba(206, 10, 255, 1) 0%, rgba(0, 240, 255, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.budgetSection h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faqs {
+  display: flex;
+  gap: 150px;
+}
+
+.faqSection {
+  margin: 250px auto;
+  max-width: 1280px;
+}
+
+.titlefaq h1 {
+  font-size: 4rem;
+}
+
+@media (max-width: 1000px) {
+
+  
+.titlefaq h1 {
+  text-align: center;
+  font-size:  2.5rem;
+}
+  .faqs {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+}

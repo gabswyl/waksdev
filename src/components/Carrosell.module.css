@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.carrosellsection {
+    margin-top: 180px;
+  }
+
+.carrosell {
+    border-radius: 10px;
+    width: 525px;
+    height: 350px;
+    border: 2px solid var(--cinza);
+}
+
+.carrosell img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura da div */
+    height: 100%; /* Garante que a imagem ocupe toda a altura da div */
+    object-fit: cover; /* Mantém a proporção da imagem e corta o excesso */
+    border-radius: 10px; /* Mantém o mesmo raio de borda da div */
+}
+
+.noborder1 {
+    border-radius: 0 10px 10px 0px;
+    border-left: none;
+}
+
+.noborder2 {
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+}
+
+
+@media (max-width: 1000px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .carrosell {
+        max-width: 100%;
+    }
+
+    .noborder1,
+    .noborder2 {
+        border: 2px solid var(--cinza);;
+        border-radius: 10px;
+    }
+
+    .carrosellsection {
+        margin-top: 80px;
+      }
+}

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: none;
+    padding: 5px 10px;
+    border: none;
+}
+
+.button:hover {
+    color: var(--cinza);
+}
+
+@media (max-width: 500px) {
+    .container {
+     display: none;
+    }
+}

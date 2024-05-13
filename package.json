@@ -1,0 +1,23 @@
+{
+  "name": "portwaks",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^11.1.9",
+    "preact": "^10.19.6",
+    "react-animate-on-scroll": "^2.1.9",
+    "react-icons": "^5.2.1",
+    "react-intersection-observer": "^9.10.2",
+    "react-scroll": "^1.9.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.2",
+    "vite": "^5.2.0"
+  }
+}

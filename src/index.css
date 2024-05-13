@@ -1,0 +1,37 @@
+:root {
+  --preto: #040404;
+  --branco: #fff;
+  --cinza: #676767;
+  --cinza-300: #B5B5B5;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--branco);
+}
+
+body {
+background-color: var(--preto);
+}
+
+/* Estilo para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+
+/* Estilo para a pista da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: black; /* Cor de fundo da pista */
+}
+
+/* Estilo para o polegar (thumb) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(141deg, rgba(206, 10, 255, 1) 0%, rgba(0, 240, 255, 1) 100%);
+}
+
+/* Estilo para o polegar (thumb) da barra de rolagem quando estiver ativo */
+::-webkit-scrollbar-thumb:active {
+  background: #555; /* Cor do polegar quando ativo */
+}
