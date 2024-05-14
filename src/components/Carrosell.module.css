@@ -4,7 +4,8 @@
 }
 
 .carrosellsection {
-    margin-top: 180px;
+    gap: 20px;
+    margin-top: 50px;
   }
 
 .carrosell {
@@ -12,6 +13,7 @@
     max-width: 525px;
     max-height: 350px;
     border: 2px solid var(--cinza);
+    margin: 20px;
 }
 
 .carrosell img {
